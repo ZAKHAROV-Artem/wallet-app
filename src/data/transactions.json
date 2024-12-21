@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "type": "Payment",
+    "amount": 174.0,
+    "name": "Apple",
+    "description": "From JPMorgan Chase Bank",
+    "date": "2024-12-18",
+    "authorizedUser": "Diana",
+    "pending": true,
+    "icon": { "bgGradient": "linear-gradient(45deg, #ff9a9e, #fad0c4)" }
+  },
+  {
+    "id": 2,
+    "type": "Credit",
+    "amount": 99.71,
+    "name": "Apple",
+    "description": "Card Number Used",
+    "date": "2024-12-15",
+    "authorizedUser": null,
+    "pending": false,
+    "icon": { "bgGradient": "linear-gradient(45deg, #a18cd1, #fbc2eb)" }
+  },
+  {
+    "id": 3,
+    "type": "Payment",
+    "amount": 50.0,
+    "name": "Netflix",
+    "description": "Monthly subscription fee",
+    "date": "2024-12-17",
+    "authorizedUser": "Diana",
+    "pending": true,
+    "icon": { "bgGradient": "linear-gradient(45deg, #84fab0, #8fd3f4)" }
+  },
+  {
+    "id": 4,
+    "type": "Credit",
+    "amount": 15.0,
+    "name": "Spotify",
+    "description": "Refund for overcharge",
+    "date": "2024-12-14",
+    "authorizedUser": null,
+    "pending": false,
+    "icon": { "bgGradient": "linear-gradient(45deg, #fccb90, #d57eeb)" }
+  },
+  {
+    "id": 5,
+    "type": "Payment",
+    "amount": 200.0,
+    "name": "Amazon",
+    "description": "Purchase of electronics",
+    "date": "2024-12-13",
+    "authorizedUser": "Diana",
+    "pending": false,
+    "icon": { "bgGradient": "linear-gradient(45deg, #fbc2eb, #a6c1ee)" }
+  },
+  {
+    "id": 6,
+    "type": "Credit",
+    "amount": 120.5,
+    "name": "PayPal",
+    "description": "Refund from seller",
+    "date": "2024-12-12",
+    "authorizedUser": "Diana",
+    "pending": true,
+    "icon": { "bgGradient": "linear-gradient(45deg, #fdcbf1, #e6dee9)" }
+  },
+  {
+    "id": 7,
+    "type": "Payment",
+    "amount": 30.0,
+    "name": "Starbucks",
+    "description": "Purchase of coffee",
+    "date": "2024-12-10",
+    "authorizedUser": null,
+    "pending": false,
+    "icon": { "bgGradient": "linear-gradient(45deg, #c2e59c, #64b3f4)" }
+  },
+  {
+    "id": 8,
+    "type": "Credit",
+    "amount": 75.99,
+    "name": "Target",
+    "description": "Gift card credit",
+    "date": "2024-12-09",
+    "authorizedUser": "Diana",
+    "pending": false,
+    "icon": { "bgGradient": "linear-gradient(45deg, #ff9a9e, #fad0c4)" }
+  },
+  {
+    "id": 9,
+    "type": "Payment",
+    "amount": 89.0,
+    "name": "Uber",
+    "description": "Ride payment",
+    "date": "2024-12-08",
+    "authorizedUser": null,
+    "pending": true,
+    "icon": { "bgGradient": "linear-gradient(45deg, #84fab0, #8fd3f4)" }
+  },
+  {
+    "id": 10,
+    "type": "Credit",
+    "amount": 300.0,
+    "name": "Venmo",
+    "description": "Received from John",
+    "date": "2024-12-07",
+    "authorizedUser": "Diana",
+    "pending": false,
+    "icon": { "bgGradient": "linear-gradient(45deg, #a18cd1, #fbc2eb)" }
+  }
+]
