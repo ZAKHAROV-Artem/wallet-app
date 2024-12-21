@@ -1,6 +1,15 @@
 import {
   faAppleWhole,
+  faCar,
   faChevronRight,
+  faCoffee,
+  faCreditCard,
+  faFilm,
+  faGift,
+  faMoneyBill,
+  faMusic,
+  faShoppingCart,
+  IconDefinition,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format, isWithinInterval, subDays } from "date-fns";
@@ -11,6 +20,19 @@ import { Transaction } from "../types";
 interface TransctionItemProps {
   transaction: Transaction;
 }
+
+const iconMap: Record<string, IconDefinition> = {
+  Amazon: faShoppingCart,
+  Apple: faAppleWhole,
+  Netflix: faFilm,
+  PayPal: faCreditCard,
+  Spotify: faMusic,
+  Starbucks: faCoffee,
+  Target: faGift,
+  Uber: faCar,
+  Venmo: faMoneyBill,
+};
+
 export default function TransctionItem({ transaction }: TransctionItemProps) {
   const navigate = useNavigate();
 
@@ -27,7 +49,7 @@ export default function TransctionItem({ transaction }: TransctionItemProps) {
         >
           <FontAwesomeIcon
             className="rounded-full bg-gray-700 p-2 text-white"
-            icon={faAppleWhole}
+            icon={iconMap[transaction.name] || faCreditCard}
           />
         </div>
         <div>
